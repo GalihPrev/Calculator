@@ -64,9 +64,9 @@ class _MyAppState extends State<MyApp> {
             ),
             Text("Hasil : $hasil",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                SizedBox(
+            SizedBox(
               height: 20,
-                ),
+            ),
             TextField(
               controller: text1,
               decoration: InputDecoration(
@@ -100,7 +100,15 @@ class _MyAppState extends State<MyApp> {
                       text1.clear();
                       text2.clear();
                     },
-                    child: Text("X")),
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 10,
+                          width: 40,
+                        ),
+                        Text("X"),
+                      ],
+                    )),
                 SizedBox(
                   height: 40,
                 ),
@@ -110,7 +118,15 @@ class _MyAppState extends State<MyApp> {
                       text1.clear();
                       text2.clear();
                     },
-                    child: Text("+")),
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 10,
+                          width: 40,
+                        ),
+                        Text("+"),
+                      ],
+                    )),
               ],
             ),
             Row(
@@ -122,7 +138,15 @@ class _MyAppState extends State<MyApp> {
                       text1.clear();
                       text2.clear();
                     },
-                    child: Text("/")),
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 10,
+                          width: 40,
+                        ),
+                        Text("/"),
+                      ],
+                    )),
                 SizedBox(
                   height: 40,
                 ),
@@ -132,7 +156,15 @@ class _MyAppState extends State<MyApp> {
                       text1.clear();
                       text2.clear();
                     },
-                    child: Text("-")),
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 10,
+                          width: 40,
+                        ),
+                        Text("-"),
+                      ],
+                    )),
               ],
             )
           ],
