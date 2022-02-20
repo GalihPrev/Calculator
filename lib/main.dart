@@ -103,7 +103,6 @@ class _MyAppState extends State<MyApp> {
                     child: Column(
                       children: [
                         SizedBox(
-                          height: 10,
                           width: 40,
                         ),
                         Text("X"),
@@ -121,7 +120,6 @@ class _MyAppState extends State<MyApp> {
                     child: Column(
                       children: [
                         SizedBox(
-                          height: 10,
                           width: 40,
                         ),
                         Text("+"),
@@ -141,7 +139,6 @@ class _MyAppState extends State<MyApp> {
                     child: Column(
                       children: [
                         SizedBox(
-                          height: 10,
                           width: 40,
                         ),
                         Text("/"),
@@ -159,7 +156,6 @@ class _MyAppState extends State<MyApp> {
                     child: Column(
                       children: [
                         SizedBox(
-                          height: 10,
                           width: 40,
                         ),
                         Text("-"),
